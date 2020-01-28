@@ -87,7 +87,7 @@ include("timesteppers.jl")
 
 # Physics
 include("diffusion.jl")
-
+include("diffusion2D.jl")
 # Import CUDA utilities if cuda is detected.
 if has_cuda()
   try
